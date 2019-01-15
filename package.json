@@ -1,0 +1,31 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianbunn/FriendFinder.git"
+  },
+  "keywords": [
+    "FriendFinder",
+    "full-stack",
+    "node.js",
+    "js",
+    "javascript",
+    "matching"
+  ],
+  "author": "irb__",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ianbunn/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/ianbunn/FriendFinder#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
