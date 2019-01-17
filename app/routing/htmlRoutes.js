@@ -9,9 +9,13 @@ module.exports.get = function (app){
     });
 
     // SURVEY
-    app.get("/:route", function (request, response) {
-        var route = request.params.route;
-        response.sendFile(path.join(__dirname, `../public/${route}.html`));
+    app.get("/survey", function (request, response) {
+        response.sendFile(path.join(__dirname, `../public/survey.html`));
+    });
+
+    // ERROR
+    app.get('*', function (request, response) {
+        response.sendFile(path.join(__dirname, `../public/error.html`));
     });
 
 };
