@@ -1,4 +1,4 @@
-var friends = [
+module.exports.list = [
     {
         "name":"Ian",
         "photo":"https://avatars2.githubusercontent.com/u/24309176?s=400&u=8000fae7e70ba53315139707bcea2fa148931cb7&v=4",
