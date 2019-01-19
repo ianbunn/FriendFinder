@@ -27,6 +27,8 @@ The app is structured into three different directories:
 - Public / User Experience
 - Routing
 
+![App structure](images/appstructure.png)
+
 ### Data
 
 In this app, we use a JSON array stored in the `app/data/friends.js` file, which includes the data to export into the **HTML routes** and **API routes**.
@@ -37,7 +39,11 @@ You can edit the data in the file `app/data/friends.js` to have the friend objec
 
 The homepage resides in the `home.html` which contains a route to the `survey.html`.
 
+![Home page](images/home.png)
+
 When the user takes route `/survey`, server responds with the contents of `survey.html`.
+
+![Survey page](images/survey.png)
 
 User is required to complete all fields in the survey, including the name and the photo link. If they do not fill the fields for name and photo link, user will be alerted to complete those fields. If user doesn't complete the questions, or some questions, app will not be able to POST data to run beerfriend match algorithm.
 
