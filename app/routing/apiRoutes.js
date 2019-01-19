@@ -2,7 +2,7 @@ var path = require("path");
 var friends = require("../data/friends.js")
 
 // API routes
-module.exports.get = function (app) {
+module.exports.routes = function (app) {
 
     // GET API FRIENDS
     app.get("/api/friends", function (request, response) {

@@ -1,7 +1,7 @@
 var path = require("path");
 
 // HTML routes
-module.exports.get = function (app){
+module.exports.routes = function (app){
 
     // HOMEPAGE
     app.get("/", function (request, response) {
@@ -14,8 +14,8 @@ module.exports.get = function (app){
     });
 
     // ERROR
-    app.get('*', function (request, response) {
-        response.sendFile(path.join(__dirname, `../public/error.html`));
-    });
+    // app.get('*', function (request, response) {
+    //     response.sendFile(path.join(__dirname, `../public/error.html`));
+    // });
 
 };

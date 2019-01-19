@@ -1,7 +1,7 @@
 var express = require("express");
 var path = require("path");
-var htmlRoutes = require("./app/routing/htmlRoutes.js");
-var apiRoutes = require("./app/routing/apiRoutes.js");
+var html = require("./app/routing/htmlRoutes.js");
+var api = require("./app/routing/apiRoutes.js");
 
 // Setting up Express app
 var app = express();
@@ -13,9 +13,9 @@ app.use(express.json());
 
 // Starts the server
 app.listen(PORT, function(){
-    console.log(`App listening on PORT: ${PORT}`);
+    console.log(`App listening on PORT: http://localhost:${PORT}`);
 });
 
-htmlRoutes.get(app);
+html.routes(app);
 
-apiRoutes.get(app);
+api.routes(app);
