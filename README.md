@@ -2,6 +2,8 @@
 
 FriendFinder is a full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.
 
+Visit live app here: https://beerfriendfinder.herokuapp.com/
+
 ## Technologies
 
 Some of the technology dependencies used in this project are:
