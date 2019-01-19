@@ -20,16 +20,16 @@ module.exports.list = [
         "name": "Luke Skywalker",
         "photo": "https://vignette.wikia.nocookie.net/starwars/images/2/20/LukeTLJ.jpg/revision/latest?cb=20170927034529",
         "scores": [
+            1,
+            1,
+            2,
             3,
             3,
+            4,
             3,
             3,
-            3,
-            3,
-            3,
-            3,
-            3,
-            3
+            5,
+            5
         ]
     },
     {
@@ -37,31 +37,31 @@ module.exports.list = [
         "photo": "https://static.comicvine.com/uploads/scale_small/11/114183/6665931-bart.png",
         "scores": [
             5,
+            3,
+            2,
+            2,
+            3,
+            4,
+            3,
             5,
-            5,
-            5,
-            5,
-            5,
-            5,
-            5,
-            5,
-            5
+            2,
+            1
         ]
     },
     {
         "name": "Keanu Reeves",
         "photo": "https://resizing.flixster.com/fs6CbJwfb8Nkigl0Ud8KaBmEB8I=/448x600/v1.cjsxMDYyODtqOzE3OTU1OzEyMDA7NDQ4OzYwMA",
         "scores": [
+            1,
+            4,
+            3,
+            2,
+            4,
             5,
-            5,
-            5,
-            5,
-            5,
-            5,
-            5,
-            5,
-            5,
-            5
+            2,
+            1,
+            1,
+            1
         ]
     }
 ]
